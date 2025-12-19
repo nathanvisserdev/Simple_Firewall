@@ -1,0 +1,436 @@
+
+
+All of Accessibility is on version B
+│   ├── AccessibilityAudit.framework
+│   │   ├── AccessibilityAudit -> Versions/Current/AccessibilityAudit
+│   │   ├── Resources -> Versions/Current/Resources
+│   │   └── Versions
+│   │       ├── B
+│   │       │   ├── _CodeSignature
+│   │       │   │   └── CodeResources
+│   │       │   ├── AccessibilityAudit
+│   │       │   └── Resources
+│   │       │       ├── AccessibilityAuditCategories.bundle
+│   │       │       │   └── Contents
+│   │       │       │       ├── _CodeSignature
+│   │       │       │       │   └── CodeResources
+│   │       │       │       ├── Info.plist
+│   │       │       │       ├── MacOS
+│   │       │       │       │   └── AccessibilityAuditCategories
+│   │       │       │       ├── Resources
+│   │       │       │       │   └── ElementAccessibilityCriteria.plist
+│   │       │       │       └── version.plist
+│   │       │       ├── AuditIssues.strings
+│   │       │       ├── AuditReport.html
+│   │       │       ├── Info.plist
+│   │       │       ├── Localizable.strings
+│   │       │       ├── LocalizableOSX.strings
+│   │       │       ├── Target Lock.pdf
+│   │       │       └── version.plist
+│   │       └── Current -> B
+│   ├── AccessibilitySupport.framework
+│   │   ├── AccessibilitySupport -> Versions/Current/AccessibilitySupport
+│   │   ├── Frameworks -> Versions/Current/Frameworks
+│   │   ├── Resources -> Versions/Current/Resources
+│   │   └── Versions
+│   │       ├── B
+│   │       │   ├── _CodeSignature
+│   │       │   │   └── CodeResources
+│   │       │   ├── AccessibilitySupport
+│   │       │   ├── Frameworks
+│   │       │   │   ├── AccessibilityEvents.framework
+│   │       │   │   │   ├── AccessibilityEvents -> Versions/Current/AccessibilityEvents
+│   │       │   │   │   ├── Resources -> Versions/Current/Resources
+│   │       │   │   │   └── Versions
+│   │       │   │   │       ├── B
+│   │       │   │   │       │   ├── _CodeSignature
+│   │       │   │   │       │   │   └── CodeResources
+│   │       │   │   │       │   ├── AccessibilityEvents
+│   │       │   │   │       │   └── Resources
+│   │       │   │   │       │       ├── en.lproj
+│   │       │   │   │       │       │   └── Localizable.strings
+│   │       │   │   │       │       ├── Info.plist
+│   │       │   │   │       │       └── version.plist
+│   │       │   │   │       └── Current -> B
+│   │       │   │   ├── AccessibilityFoundation.framework
+│   │       │   │   │   ├── AccessibilityFoundation -> Versions/Current/AccessibilityFoundation
+│   │       │   │   │   ├── Resources -> Versions/Current/Resources
+│   │       │   │   │   └── Versions
+│   │       │   │   │       ├── B
+│   │       │   │   │       │   ├── _CodeSignature
+│   │       │   │   │       │   │   └── CodeResources
+│   │       │   │   │       │   ├── AccessibilityFoundation
+│   │       │   │   │       │   └── Resources
+│   │       │   │   │       │       ├── AccessibilityFoundationExcludedBundleIdentifiers.plist
+│   │       │   │   │       │       ├── Cursors
+│   │       │   │   │       │       │   ├── arrow-bottom.pdf
+│   │       │   │   │       │       │   ├── arrow-top.pdf
+│   │       │   │   │       │       │   ├── copy-bottom.pdf
+│   │       │   │   │       │       │   ├── copy-overlay.pdf
+│   │       │   │   │       │       │   ├── copy-top.pdf
+│   │       │   │   │       │       │   ├── cross-bottom.pdf
+│   │       │   │   │       │       │   ├── cross-top.pdf
+│   │       │   │   │       │       │   ├── crossTop.pdf
+│   │       │   │   │       │       │   ├── default-iBeam-0.png
+│   │       │   │   │       │       │   ├── default-iBeam-1.png
+│   │       │   │   │       │       │   ├── default-iBeam-2.png
+│   │       │   │   │       │       │   ├── default-iBeam-3.png
+│   │       │   │   │       │       │   ├── default-pointer-0.png
+│   │       │   │   │       │       │   ├── default-pointer-1.png
+│   │       │   │   │       │       │   ├── default-pointer-2.png
+│   │       │   │   │       │       │   ├── default-pointer-3.png
+│   │       │   │   │       │       │   ├── hand-bottom.pdf
+│   │       │   │   │       │       │   ├── hand-top.pdf
+│   │       │   │   │       │       │   ├── handClosed-bottom.pdf
+│   │       │   │   │       │       │   ├── handClosed-top.pdf
+│   │       │   │   │       │       │   ├── handOpened-bottom.pdf
+│   │       │   │   │       │       │   ├── handOpened-top.pdf
+│   │       │   │   │       │       │   ├── iBeam-bottom.pdf
+│   │       │   │   │       │       │   ├── iBeam-top.pdf
+│   │       │   │   │       │       │   ├── iBeamVertical-bottom.pdf
+│   │       │   │   │       │       │   ├── iBeamVertical-top.pdf
+│   │       │   │   │       │       │   ├── makeAlias-bottom.pdf
+│   │       │   │   │       │       │   ├── makeAlias-top.pdf
+│   │       │   │   │       │       │   ├── move-bottom.pdf
+│   │       │   │   │       │       │   ├── move-top.pdf
+│   │       │   │   │       │       │   ├── notAllowed-bottom.pdf
+│   │       │   │   │       │       │   ├── notAllowed-overlay.pdf
+│   │       │   │   │       │       │   ├── notAllowed-top.pdf
+│   │       │   │   │       │       │   ├── objectResizeEastWest-bottom.pdf
+│   │       │   │   │       │       │   ├── objectResizeEastWest-top.pdf
+│   │       │   │   │       │       │   ├── objectResizeNorthEastSouthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── objectResizeNorthEastSouthWest-top.pdf
+│   │       │   │   │       │       │   ├── objectResizeNorthSouth-bottom.pdf
+│   │       │   │   │       │       │   ├── objectResizeNorthSouth-top.pdf
+│   │       │   │   │       │       │   ├── objectResizeNorthWestSouthEast-bottom.pdf
+│   │       │   │   │       │       │   ├── objectResizeNorthWestSouthEast-top.pdf
+│   │       │   │   │       │       │   ├── resizeDown-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeDown-top.pdf
+│   │       │   │   │       │       │   ├── resizeEast-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeEast-top.pdf
+│   │       │   │   │       │       │   ├── resizeEastWest-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeEastWest-top.pdf
+│   │       │   │   │       │       │   ├── resizeLeft-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeLeft-top.pdf
+│   │       │   │   │       │       │   ├── resizeLeftRight-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeLeftRight-top.pdf
+│   │       │   │   │       │       │   ├── resizeNorth-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeNorth-top.pdf
+│   │       │   │   │       │       │   ├── resizeNorthEast-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeNorthEast-top.pdf
+│   │       │   │   │       │       │   ├── resizeNorthEastSouthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeNorthEastSouthWest-top.pdf
+│   │       │   │   │       │       │   ├── resizeNorthSouth-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeNorthSouth-top.pdf
+│   │       │   │   │       │       │   ├── resizeNorthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeNorthWest-top.pdf
+│   │       │   │   │       │       │   ├── resizeNorthWestSouthEast-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeNorthWestSouthEast-top.pdf
+│   │       │   │   │       │       │   ├── resizeRight-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeRight-top.pdf
+│   │       │   │   │       │       │   ├── resizeSouth-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeSouth-top.pdf
+│   │       │   │   │       │       │   ├── resizeSouthEast-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeSouthEast-top.pdf
+│   │       │   │   │       │       │   ├── resizeSouthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeSouthWest-top.pdf
+│   │       │   │   │       │       │   ├── resizeUp-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeUp-top.pdf
+│   │       │   │   │       │       │   ├── resizeUpDown-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeUpDown-top.pdf
+│   │       │   │   │       │       │   ├── resizeWest-bottom.pdf
+│   │       │   │   │       │       │   ├── resizeWest-top.pdf
+│   │       │   │   │       │       │   ├── rotateNorthEast-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateNorthEast-top.pdf
+│   │       │   │   │       │       │   ├── rotateNorthEastNorthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateNorthEastNorthWest-top.pdf
+│   │       │   │   │       │       │   ├── rotateNorthEastSouthEast-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateNorthEastSouthEast-top.pdf
+│   │       │   │   │       │       │   ├── rotateNorthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateNorthWest-top.pdf
+│   │       │   │   │       │       │   ├── rotateNorthWestSouthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateNorthWestSouthWest-top.pdf
+│   │       │   │   │       │       │   ├── rotateSouthEast-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateSouthEast-top.pdf
+│   │       │   │   │       │       │   ├── rotateSouthEastSouthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateSouthEastSouthWest-top.pdf
+│   │       │   │   │       │       │   ├── rotateSouthWest-bottom.pdf
+│   │       │   │   │       │       │   ├── rotateSouthWest-top.pdf
+│   │       │   │   │       │       │   ├── screenshotWindow-bottom.pdf
+│   │       │   │   │       │       │   └── screenshotWindow-top.pdf
+│   │       │   │   │       │       ├── en.lproj
+│   │       │   │   │       │       │   ├── AccessibilityFoundationLiteralOutput.strings
+│   │       │   │   │       │       │   └── Localizable.strings
+│   │       │   │   │       │       ├── Info.plist
+│   │       │   │   │       │       └── version.plist
+│   │       │   │   │       └── Current -> B
+│   │       │   │   ├── AccessibilityKit.framework
+│   │       │   │   │   ├── AccessibilityKit -> Versions/Current/AccessibilityKit
+│   │       │   │   │   ├── Resources -> Versions/Current/Resources
+│   │       │   │   │   └── Versions
+│   │       │   │   │       ├── B
+│   │       │   │   │       │   ├── _CodeSignature
+│   │       │   │   │       │   │   └── CodeResources
+│   │       │   │   │       │   ├── AccessibilityKit
+│   │       │   │   │       │   └── Resources
+│   │       │   │   │       │       ├── Base.lproj
+│   │       │   │   │       │       │   └── AlertWindow.nib
+│   │       │   │   │       │       ├── Click.m4a
+│   │       │   │   │       │       ├── DoubleClick.m4a
+│   │       │   │   │       │       ├── en.lproj
+│   │       │   │   │       │       │   └── Localizable.strings
+│   │       │   │   │       │       ├── Info.plist
+│   │       │   │   │       │       └── version.plist
+│   │       │   │   │       └── Current -> B
+│   │       │   │   └── AccessibilityVisuals.framework
+│   │       │   │       ├── AccessibilityVisuals -> Versions/Current/AccessibilityVisuals
+│   │       │   │       ├── Resources -> Versions/Current/Resources
+│   │       │   │       └── Versions
+│   │       │   │           ├── B
+│   │       │   │           │   ├── _CodeSignature
+│   │       │   │           │   │   └── CodeResources
+│   │       │   │           │   ├── AccessibilityVisuals
+│   │       │   │           │   └── Resources
+│   │       │   │           │       ├── Assets.car
+│   │       │   │           │       ├── en.lproj
+│   │       │   │           │       │   └── Localizable.strings
+│   │       │   │           │       ├── Info.plist
+│   │       │   │           │       └── version.plist
+│   │       │   │           └── Current -> B
+│   │       │   └── Resources
+│   │       │       ├── Info.plist
+│   │       │       └── version.plist
+│   │       └── Current -> B
+
+
+
+
+
+
+
+
+
+
+System.Framework is on Version B
+Contents/Developer/Makefiles/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/System.framework
+│   │   │   │   │   │   │       │   ├── System.framework
+│   │   │   │   │   │   │       │   │   ├── System.tbd -> Versions/Current/System.tbd
+│   │   │   │   │   │   │       │   │   └── Versions
+│   │   │   │   │   │   │       │   │       ├── B
+│   │   │   │   │   │   │       │   │       │   └── System.tbd -> ../../../../../../usr/lib/libSystem.B.tbd
+│   │   │   │   │   │   │       │   │       └── Current -> B
+
+
+
+
+
+
+
+
+
+
+Foundation Framework is on Version C
+Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework
+│   │   │   │   │   │   │       │   ├── Foundation.framework
+│   │   │   │   │   │   │       │   │   ├── Foundation.tbd -> Versions/Current/Foundation.tbd
+│   │   │   │   │   │   │       │   │   ├── Headers -> Versions/Current/Headers
+│   │   │   │   │   │   │       │   │   ├── Modules -> Versions/Current/Modules
+│   │   │   │   │   │   │       │   │   └── Versions
+│   │   │   │   │   │   │       │   │       ├── C
+│   │   │   │   │   │   │       │   │       │   ├── Foundation.tbd
+│   │   │   │   │   │   │       │   │       │   ├── Headers
+│   │   │   │   │   │   │       │   │       │   │   ├── Foundation.apinotes
+│   │   │   │   │   │   │       │   │       │   │   ├── Foundation.h
+│   │   │   │   │   │   │       │   │       │   │   ├── FoundationErrors.h
+│   │   │   │   │   │   │       │   │       │   │   ├── FoundationLegacySwiftCompatibility.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSAffineTransform.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSAppleEventDescriptor.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSAppleEventManager.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSAppleScript.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSArchiver.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSArray.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSAttributedString.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSAutoreleasePool.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSBackgroundActivityScheduler.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSBundle.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSByteCountFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSByteOrder.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSCache.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSCalendar.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSCalendarDate.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSCharacterSet.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSClassDescription.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSCoder.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSComparisonPredicate.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSCompoundPredicate.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSConnection.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSData.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDate.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDateComponentsFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDateFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDateInterval.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDateIntervalFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDebug.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDecimal.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDecimalNumber.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDictionary.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDistantObject.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDistributedLock.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSDistributedNotificationCenter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSEnergyFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSEnumerator.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSError.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSException.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSExpression.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSExtensionContext.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSExtensionItem.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSExtensionRequestHandling.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSFileCoordinator.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSFileHandle.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSFileManager.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSFilePresenter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSFileVersion.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSFileWrapper.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSGarbageCollector.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSGeometry.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSHashTable.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSHFSFileTypes.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSHost.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSHTTPCookie.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSHTTPCookieStorage.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSIndexPath.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSIndexSet.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSInflectionRule.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSInvocation.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSISO8601DateFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSItemProvider.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSItemProviderReadingWriting.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSJSONSerialization.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSKeyedArchiver.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSKeyValueCoding.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSKeyValueObserving.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSKeyValueSharedObservers.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSLengthFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSLinguisticTagger.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSListFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSLocale.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSLocalizedNumberFormatRule.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSLock.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMapTable.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMassFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMeasurement.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMeasurementFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMetadata.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMetadataAttributes.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMethodSignature.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSMorphology.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSNetServices.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSNotification.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSNotificationQueue.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSNull.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSNumberFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSObjCRuntime.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSObject.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSObjectScripting.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSOperation.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSOrderedCollectionChange.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSOrderedCollectionDifference.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSOrderedSet.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSOrthography.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPathUtilities.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPersonNameComponents.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPersonNameComponentsFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPointerArray.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPointerFunctions.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPort.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPortCoder.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPortMessage.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPortNameServer.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPredicate.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSProcessInfo.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSProgress.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSPropertyList.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSProtocolChecker.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSProxy.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSRange.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSRegularExpression.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSRelativeDateTimeFormatter.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSRunLoop.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScanner.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptClassDescription.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptCoercionHandler.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptCommand.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptCommandDescription.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptExecutionContext.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptKeyValueCoding.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptObjectSpecifiers.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptStandardSuiteCommands.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptSuiteRegistry.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSScriptWhoseTests.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSSet.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSSortDescriptor.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSSpellServer.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSStream.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSString.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSTask.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSTermOfAddress.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSTextCheckingResult.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSThread.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSTimer.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSTimeZone.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUbiquitousKeyValueStore.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUndoManager.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUnit.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURL.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLAuthenticationChallenge.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLCache.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLConnection.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLCredential.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLCredentialStorage.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLDownload.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLError.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLHandle.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLProtectionSpace.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLProtocol.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLRequest.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLResponse.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSURLSession.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUserActivity.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUserDefaults.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUserNotification.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUserScriptTask.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSUUID.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSValue.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSValueTransformer.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXMLDocument.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXMLDTD.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXMLDTDNode.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXMLElement.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXMLNode.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXMLNodeOptions.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXMLParser.h
+│   │   │   │   │   │   │       │   │       │   │   ├── NSXPCConnection.h
+│   │   │   │   │   │   │       │   │       │   │   └── NSZone.h
+│   │   │   │   │   │   │       │   │       │   └── Modules
+│   │   │   │   │   │   │       │   │       │       ├── Foundation.swiftmodule
+│   │   │   │   │   │   │       │   │       │       │   ├── arm64e-apple-ios-macabi.swiftdoc
+│   │   │   │   │   │   │       │   │       │       │   ├── arm64e-apple-ios-macabi.swiftinterface
+│   │   │   │   │   │   │       │   │       │       │   ├── arm64e-apple-macos.swiftdoc
+│   │   │   │   │   │   │       │   │       │       │   ├── arm64e-apple-macos.swiftinterface
+│   │   │   │   │   │   │       │   │       │       │   ├── x86_64-apple-ios-macabi.swiftdoc
+│   │   │   │   │   │   │       │   │       │       │   ├── x86_64-apple-ios-macabi.swiftinterface
+│   │   │   │   │   │   │       │   │       │       │   ├── x86_64-apple-macos.swiftdoc
+│   │   │   │   │   │   │       │   │       │       │   └── x86_64-apple-macos.swiftinterface
+│   │   │   │   │   │   │       │   │       │       └── module.modulemap
+│   │   │   │   │   │   │       │   │       └── Current -> C
+
+
+
+
+
+
+
+
+
+
